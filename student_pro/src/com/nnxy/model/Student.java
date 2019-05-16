@@ -2,10 +2,10 @@ package com.nnxy.model;
 
 public class Student {
 	
-	private int id;
-	private String name;
-	private int sex;
-	private int age;
+	private int id;  //设置ID
+	private String name; //设置名字
+	private int sex;  //设置性别
+	private int age;  //设置年龄
 	public Student(int id, String name, int sex, int age) {
 		super();
 		this.id = id;
